@@ -22,7 +22,12 @@ Nothing is ever bought for you. For paid prompts, the agent gives you a link to 
 agy plugin install https://github.com/promptbasedev/antigravity-plugin
 ```
 
-Then open Agent settings → Customizations and click **Authenticate** next to PromptBase. Sign in to your PromptBase account (or create a free one), approve the connection, and paste the code back into Antigravity. You can disconnect any time in your PromptBase account settings.
+Then connect your PromptBase account:
+
+- **Antigravity App:** open Customizations → Installed and click **Authenticate** next to PromptBase under MCP Servers.
+- **Antigravity CLI:** run `/plugin`, expand `promptbase` under Installed and choose **Sign in**.
+
+Sign in to your PromptBase account (or create a free one) and approve the connection. If Antigravity asks for an authorization code, paste the one shown in your browser. You can disconnect any time in your PromptBase account settings.
 
 ## Network and credentials
 

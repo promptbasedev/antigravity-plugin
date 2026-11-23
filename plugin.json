@@ -1,4 +1,21 @@
 {
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
   "name": "promptbase",
-  "description": "Search and use 300,000+ AI prompts and skills from PromptBase for images, video, writing, games, apps and websites. Sign in with your PromptBase account on first connect."
+  "displayName": "PromptBase",
+  "description": "Search and use 300,000+ AI prompts and skills from PromptBase for images, video, writing, games, apps and websites, right from your agent.",
+  "version": "1.0.0",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "Find a PromptBase prompt for pixel art game sprites",
+    "Search PromptBase for a prompt to make hero images for my landing page",
+    "Show me the prompts I own on PromptBase"
+  ],
+  "author": {
+    "name": "PromptBase",
+    "url": "https://promptbase.com"
+  },
+  "homepage": "https://promptbase.com/agents",
+  "repository": "https://github.com/promptbasedev/antigravity-plugin",
+  "license": "MIT",
+  "keywords": ["prompts", "skills", "image generation", "game assets", "video", "marketplace"]
 }
